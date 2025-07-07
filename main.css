@@ -21,9 +21,9 @@ body {
 }
 
 #cat1 {
-	border-top: 4px solid #f9ab22;
+	border-top: 4px solid #ff7a0c;
 	border-radius: 8px;
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: rgba(37, 37, 37, 0.65);
 	margin: auto;
 	width: 50%;
 	text-align: center;
@@ -69,6 +69,37 @@ body {
 	text-align: center;
 	margin-top: 10px;
 }
+
+#ca65 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cat7 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cat8 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
 
 .category {
 	font-size: 1.3rem;
@@ -119,5 +150,6 @@ input[type="text"] {
   border-radius: 4px;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 }
+
 
 
