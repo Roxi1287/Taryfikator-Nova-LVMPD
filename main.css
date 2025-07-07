@@ -21,7 +21,7 @@ body {
 
 /* uniwersalny styl dla wszystkich kontenerów kategorii */
 [id^="cat"] {
-  border-top: 4px solid #ff7b00;
+  border-top: 4px solid #db812d;
   border-radius: 4px;
   background-color: rgba(43, 20, 2, 0.65);
   margin: auto;
