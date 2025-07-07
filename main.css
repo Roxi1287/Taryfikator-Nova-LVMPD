@@ -55,16 +55,16 @@ input[type="text"] {
   width: 80px;
   position: -webkit-sticky;
   position: sticky;
-  background-color: rgba(50, 50, 50, 0.70);
+  background-color: rgba(41, 20, 0, 0.7);
   border: none;
-  border-top: solid 3px #FFA500;
+  border-top: solid 3px #ff8800;
   border-radius: 4px;
   top: 22%;
   left: 77%;
 }
 
 .ajs-dialog {
-  color: #000;
+  color: #6e5b1d;
   text-align: center;
   border: solid 5px #ddd;
   border-radius: 2px;
@@ -82,4 +82,3 @@ input[type="text"] {
   border-radius: 4px;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 }
-
