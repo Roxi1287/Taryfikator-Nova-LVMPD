@@ -23,7 +23,7 @@ body {
 [id^="cat"] {
   border-top: 4px solid #db812d;
   border-radius: 4px;
-  background-color: rgba(241, 233, 228, 0.65);
+  background-color: rgba(0, 0, 0, 0.65);
   margin: auto;
   width: 50%;
   text-align: center;
@@ -38,7 +38,7 @@ body {
 .category {
   font-size: 1.3rem;
   font-weight: bold;
-  background-color: rgba(50, 50, 50, 0.65);
+  background-color: rgba(248, 238, 218, 0.65);
   margin: auto;
   text-align: center;
 }
@@ -57,7 +57,7 @@ input[type="text"] {
   position: sticky;
   background-color: rgba(134, 128, 123, 0.7);
   border: none;
-  border-top: solid 3px #e99c4b;
+  border-top: solid 3px #fa9223;
   border-radius: 4px;
   top: 22%;
   left: 77%;
