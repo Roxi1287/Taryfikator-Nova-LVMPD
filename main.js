@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <title>Taryfikator</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
-</head>
-<body>
-<script>
+
 $(document).ready(function() {
     // obiekt z całym taryfikatorem
     var obj = {
@@ -306,7 +296,7 @@ $(document).ready(function() {
             },
             'Pomoc w ucieczce': {
                 'Dodatkowe': 'Brak',
-                'Kwota min': 200,
+                'Kwota min': 200, 
                 'Kwota max': 600,
                 'Więzienie min': 12,
                 'Więzienie max': 20
@@ -564,7 +554,7 @@ $(document).ready(function() {
                 'Kwota min': 300,
                 'Kwota max': 1000,
                 'Więzienie min': 'Brak',
-                'Więzenie max': 'Brak'
+                'Więzienie max': 'Brak'
             },
             'Przekroczenie obowiązków służbowych pod wpływem alkoholu lub narkotyków': {
                 'Dodatkowe': 'Brak',
@@ -675,6 +665,4 @@ $(document).ready(function() {
         }, 700);
     });
 });
-</script>
-</body>
-</html>
+
