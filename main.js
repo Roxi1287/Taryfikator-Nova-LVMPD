@@ -173,13 +173,6 @@ $(document).ready(function() {
                 'Więzienie min': 6,
                 'Więzienie max': 12
             },
-            'Obraza funkcjonariusza': {
-                'Dodatkowe': 'Upomnienie',
-                'Kwota min': 200,
-                'Kwota max': 300,
-                'Więzienie min': 'Brak',
-                'Więzienie max': 6
-            },
             'Utrudnianie pracy służbom publicznym': {
                 'Dodatkowe': 'Upomnienie',
                 'Kwota min': 100,
