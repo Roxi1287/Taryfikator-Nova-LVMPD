@@ -1,76 +1,111 @@
 @import url('https://fonts.googleapis.com/css?family=Play&display=swap');
 
 body {
-  font-family: Play;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  margin: 0;
+	font-family: Play; 
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0;
+	color: white;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  font-size: 12px;
-  text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	text-align: center;
 }
 
-/* uniwersalny styl dla wszystkich kontenerów kategorii */
-[id^="cat"] {
-  border-top: 4px solid #ff8a1d;
-  border-radius: 4px;
-  background-color: rgba(250, 215, 170, 0.65);
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  margin-top: 10px;
-  font-weight: 900; /* dodane */
-}
-
-
-/* jeśli cat1 miałby inny height, to możesz go nadpisać osobno: */
 #cat1 {
-  height: 120%;
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cat2 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+    margin-top: 10px;
+}
+
+#cat3 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cat4 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cat5 {
+	border-top: 4px solid #f9ab22;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .category {
-  font-size: 1.3rem;
-  font-weight: bold;
-  background-color: rgba(80, 80, 80, 0.65);
-  margin: auto;
-  text-align: center;
+	font-size: 1.3rem;
+	font-weight: bold;
+	background-color: rgba(24, 24, 24, 0.65);
+	margin: auto;
+	text-align: center;
 }
 
 input[type="text"] {
-  width: 20px;
-}
+	width: 20px;
+	}
 
 #show {
-  font-family: Play;
-  font-size: 18px;
-  font-weight: bold;
-  height: 40px;
-  width: 80px;
-  position: -webkit-sticky;
-  position: sticky;
-  background-color: rgba(134, 128, 123, 0.7);
-  border: none;
-  border-top: solid 3px #fa9223;
-  border-radius: 4px;
-  top: 22%;
-  left: 77%;
+	font-family: Play;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	height: 40px;
+	width: 80px;
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: rgba(50, 50, 50, 0.70);
+	border: none;
+	border-top: solid 3px #f9ab22;
+	border-radius: 4px;
+	top: 22%;
+	left: 77%;
 }
 
 .ajs-dialog {
-  color: #ff8800;
+  color: #000000;
   text-align: center;
-  border: solid 5px #ddd;
+  border: solid 5px #000000;
   border-radius: 2px;
 }
+
 
 .alertify-notifier .ajs-message.ajs-success {
   color: #fff;
@@ -84,4 +119,5 @@ input[type="text"] {
   border-radius: 4px;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 }
+
 
