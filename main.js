@@ -583,7 +583,7 @@ $(document).ready(function() {
         });
         i++;
     });
-    $("body").append('<div class="footer"><p>Copyright 2019 © by FluX/Darek#9061</p></div>');
+    $("body").append('<div class="footer"><p>Copyright 2025 © by Roxi1287/Darek#9061</p></div>');
 
     // tablice przechowujące zaznaczone wartości
     var arrayWyrok = [], arrayDodatkowe = [],
