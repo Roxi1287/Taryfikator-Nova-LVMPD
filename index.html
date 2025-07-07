@@ -3,19 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Taryfikator LVMPD Nova RolePlay</title>
-    <link rel="icon" href="https://media.discordapp.net/attachments/…/logogo.png" type="image/png">
+    <!-- favicon: poprawny raw-link z Discord CDN albo lokalnie w /images -->
+    <!-- Opcja A: Discord CDN -->
+    <link rel="icon"
+          href="https://cdn.discordapp.com/attachments/123456789012345678/987654321098765432/logogo.png"
+          type="image/png">
+    <!-- Opcja B: lokalnie (w projekcie masz plik public/images/logogo.png) -->
+    <!-- <link rel="icon" href="/images/logogo.png" type="image/png"> -->
 
     <!-- Style -->
-    <link rel="stylesheet" href="alertify.min.css">
-    <link rel="stylesheet" href="main.css">
+    <!-- Opcja A: lokalne pliki w katalogu public/css -->
+    <link rel="stylesheet" href="/css/alertify.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Opcja B: CDN dla Alertify -->
+    <!--
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css">
+    -->
 </head>
-<body style="background-image: url('background.jpg'); background-repeat: repeat; background-attachment: fixed;">
+<body style="background-image: url('/images/background.jpg'); background-repeat: repeat; background-attachment: fixed;">
 
     <!-- Zawartość strony -->
 
     <!-- Skrypty -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="alertify.min.js"></script>
-    <script src="main.js"></script>
+
+    <!-- Opcja A: lokalne pliki w katalogu public/js -->
+    <script src="/js/alertify.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- Opcja B: CDN dla Alertify -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    -->
 </body>
 </html>
