@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Taryfikator</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+</head>
+<body>
+<script>
 $(document).ready(function() {
     // obiekt z całym taryfikatorem
     var obj = {
@@ -295,7 +306,7 @@ $(document).ready(function() {
             },
             'Pomoc w ucieczce': {
                 'Dodatkowe': 'Brak',
-                'Kwota min': 200, 
+                'Kwota min': 200,
                 'Kwota max': 600,
                 'Więzienie min': 12,
                 'Więzienie max': 20
@@ -506,15 +517,15 @@ $(document).ready(function() {
             },
             'Przynależność do zorganizowanej grupy przestępczej': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 1000,
+                'Kwota min': 1000,
                 'Kwota max': 15000,
                 'Więzienie min': 40,
                 'Więzienie max': 100
             },
             'Współpraca z zorganizowaną grupą przestępczą': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 5000,
-                'Kwота max': 10000,
+                'Kwota min': 5000,
+                'Kwota max': 10000,
                 'Więzienie min': 30,
                 'Więzienie max': 75
             }
@@ -522,43 +533,43 @@ $(document).ready(function() {
         'Przestępstwa korupcyjne': {
             'Nadużycie praw specjalnych przez pojazdy uprzywilejowane': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 150,
-                'Kwота max': 1000,
+                'Kwota min': 150,
+                'Kwota max': 1000,
                 'Więzienie min': 'Brak',
                 'Więzienie max': 'Brak'
             },
             'Korupcja': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 800,
-                'Kwота max': 5000,
+                'Kwota min': 800,
+                'Kwota max': 5000,
                 'Więzienie min': 40,
                 'Więzienie max': 80
             },
             'Nieuprawnione użycie broni palnej': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 350,
-                'Kwота max': 800,
+                'Kwota min': 350,
+                'Kwota max': 800,
                 'Więzienie min': 'Brak',
                 'Więzienie max': 24
             },
             'Nieuprawnione użycie paralizatora': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 150,
-                'Kwота max': 1000,
+                'Kwota min': 150,
+                'Kwota max': 1000,
                 'Więzienie min': 'Brak',
                 'Więzienie max': 'Brak'
             },
             'Nieprzestrzeganie procedur': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 300,
-                'Kwота max': 1000,
+                'Kwota min': 300,
+                'Kwota max': 1000,
                 'Więzienie min': 'Brak',
-                'Więzienie max': 'Brak'
+                'Więzenie max': 'Brak'
             },
             'Przekroczenie obowiązków służbowych pod wpływem alkoholu lub narkotyków': {
                 'Dodatkowe': 'Brak',
-                'Kwота min': 400,
-                'Kwота max': 1000,
+                'Kwota min': 400,
+                'Kwota max': 1000,
                 'Więzienie min': 10,
                 'Więzienie max': 40
             }
@@ -664,3 +675,6 @@ $(document).ready(function() {
         }, 700);
     });
 });
+</script>
+</body>
+</html>
