@@ -577,7 +577,7 @@ $(document).ready(function() {
         });
         i++;
     });
-    $("body").append('<div class="footer"><p>Copyright 2025 © by FluX/Roxi1287</p></div>');
+    $("body").append('<div class="footer"><p>Copyright 2025 © by Roxi1287 & white1225</p></div>');
 
     // tablice przechowujące zaznaczone wartości
     var arrayWyrok = [], arrayDodatkowe = [],
