@@ -23,7 +23,7 @@ body {
 [id^="cat"] {
   border-top: 4px solid #ff8a1d;
   border-radius: 4px;
-  background-color: rgba(250, 215, 170, 0.65);
+  background-color: rgba(248, 194, 124, 0.65);
   margin: auto;
   width: 50%;
   text-align: center;
