@@ -21,9 +21,9 @@ body {
 
 /* uniwersalny styl dla wszystkich kontenerów kategorii */
 [id^="cat"] {
-  border-top: 4px solid #db812d;
+  border-top: 4px solid #ff8a1d;
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(250, 215, 170, 0.65);
   margin: auto;
   width: 50%;
   text-align: center;
@@ -38,7 +38,7 @@ body {
 .category {
   font-size: 1.3rem;
   font-weight: bold;
-  background-color: rgba(248, 238, 218, 0.65);
+  background-color: rgba(80, 80, 80, 0.65);
   margin: auto;
   text-align: center;
 }
@@ -64,7 +64,7 @@ input[type="text"] {
 }
 
 .ajs-dialog {
-  color: #6e5b1d;
+  color: #ff8800;
   text-align: center;
   border: solid 5px #ddd;
   border-radius: 2px;
