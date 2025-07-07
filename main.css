@@ -23,7 +23,7 @@ body {
 [id^="cat"] {
   border-top: 4px solid #db812d;
   border-radius: 4px;
-  background-color: rgba(192, 186, 182, 0.65);
+  background-color: rgba(241, 233, 228, 0.65);
   margin: auto;
   width: 50%;
   text-align: center;
@@ -55,9 +55,9 @@ input[type="text"] {
   width: 80px;
   position: -webkit-sticky;
   position: sticky;
-  background-color: rgba(41, 20, 0, 0.7);
+  background-color: rgba(134, 128, 123, 0.7);
   border: none;
-  border-top: solid 3px #4d4236;
+  border-top: solid 3px #e99c4b;
   border-radius: 4px;
   top: 22%;
   left: 77%;
@@ -82,3 +82,4 @@ input[type="text"] {
   border-radius: 4px;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 }
+
